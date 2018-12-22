@@ -1,0 +1,14 @@
+{
+  "name": "flowerbless",
+  "version": "0.0.1",
+  "description": "A discord chatbot.",
+  "main": "main.js",
+  "dependencies": {
+    "sugar": "",
+    "discord.js": "",
+    "colors": ""
+  },
+  "scripts": {
+    "start": "node main.js"
+  }
+}
