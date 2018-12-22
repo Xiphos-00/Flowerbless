@@ -1,5 +1,4 @@
 const League = require('./exports/league.js');
-const leagueKey = Config.leagueKey;
 const color = {
 	'iron': '#72767d',
 	'bronze': '#cd7f32',
