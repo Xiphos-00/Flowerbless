@@ -12,7 +12,7 @@ const color = {
 };
 
 exports.rank = function(arg, user, room) {
-	let region = arg[1] ? arg[1] : 'na';
+	let region = arg[1] ?'na';
 	League.getLeagueByName(arg[0], region, (err, league) => {
 		if(err) return room.send(err);
 		if(league == null || !Object.keys(league).length) return room.send('This user is unranked.');
